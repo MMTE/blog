@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-4">
             <div className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium">
               <Terminal className="mr-1 h-3 w-3" />
-              <code>mahdi.dev</code>
+              <code>mmte.me</code>
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               <span className="text-primary">const</span>{" "}
@@ -98,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t bg-muted/40 py-20">
+      <section className="border bg-muted/40 py-20 px-10 rounded-lg border-rounded">
         <div className="container">
           <div className="mb-12">
             <h2 className="text-2xl font-bold tracking-tight">
@@ -106,7 +106,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 transition-shadow hover:shadow-lg">
+            <div className="group relative overflow-hidden rounded-lg border  bg-background p-6 transition-shadow hover:shadow-lg">
               <div className="mb-4 flex items-center gap-2">
                 <Code2 className="h-5 w-5 text-primary" />
                 <h3 className="font-bold">Frontend Development</h3>
@@ -137,11 +137,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t py-20">
+      <section className="py-20">
         <div className="container">
           <div className="mb-12 flex items-center justify-between">
-            <h2 className="text-2xl font-bold tracking-tight">Latest Blog Posts</h2>
-            <Link href="/blog" className="flex items-center text-sm text-primary hover:underline">
+            <h2 className="text-2xl pl-10 font-bold tracking-tight">Latest Blog Posts</h2>
+            <Link href="/blog" className="pr-10 flex items-center text-sm text-primary hover:underline">
               View all posts <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t bg-muted/40 py-20">
+      <section className="border border-rounded rounded-lg bg-muted/40 py-20 px-10 mb-20">
         <div className="container">
           <div className="mb-12 flex items-center justify-between">
             <h2 className="text-2xl font-bold tracking-tight">Featured Projects</h2>
