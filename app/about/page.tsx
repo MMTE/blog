@@ -88,7 +88,7 @@ export default function AboutPage() {
         <code className="text-lg font-bold">~/about</code>
       </div>
 
-      <div className="mb-12 grid gap-6 md:grid-cols-3">
+      {/* <div className="mb-12 grid gap-6 md:grid-cols-3">
         {quickBios.map((bio, index) => (
           <Card key={index} className="flex flex-col p-6">
             <div className="mb-4 flex items-center gap-2">
@@ -100,7 +100,7 @@ export default function AboutPage() {
             </p>
           </Card>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid gap-8 lg:grid-cols-3">
         {/* Rest of the about page content remains the same */}
