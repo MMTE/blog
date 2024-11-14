@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-4">
             <div className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium">
               <Terminal className="mr-1 h-3 w-3" />
-              <code>mmte.me</code>
+              <code>mmte.me <span> | website is under development</span> </code> 
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               <span className="text-primary">const</span>{" "}
@@ -70,7 +70,7 @@ export default function Home() {
               </p>
               <p className="text-xl">
                 <span className="text-muted-foreground">location:</span>{" "}
-                <span className="text-primary">"Tehran, Iran"</span>,
+                <span className="text-primary">"Tehran, Iran 🛫 ... "</span>,
               </p>
               <p className="text-xl">
                 <span className="text-muted-foreground">experience:</span>{" "}
