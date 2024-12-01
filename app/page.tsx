@@ -48,7 +48,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-background py-24">
         <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:60px_60px]" />
         <div className="absolute inset-0 bg-gradient-to-t from-background to-background/0" />
-        <div className="container relative">
+        <div className="container relative px-2 sm:px-4 md:px-6 lg:px-8">
           <div className="flex flex-col items-start gap-4">
             <div className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium">
               <Terminal className="mr-1 h-3 w-3" />
@@ -137,11 +137,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 px-10 ">
         <div className="container">
           <div className="mb-12 flex items-center justify-between">
-            <h2 className="text-2xl pl-10 font-bold tracking-tight">Latest Blog Posts</h2>
-            <Link href="/blog" className="pr-10 flex items-center text-sm text-primary hover:underline">
+            <h2 className="text-2xl font-bold tracking-tight">Latest Blog Posts</h2>
+            <Link href="/blog" className="flex items-center text-sm text-primary hover:underline">
               View all posts <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </div>
