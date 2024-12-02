@@ -68,10 +68,10 @@ export default function Home() {
                 <span className="text-muted-foreground">role:</span>{" "}
                 <span className="text-primary">"Full Stack Developer | DevOps Engineer"</span>,
               </p>
-              <p className="text-xl">
+              {/* <p className="text-xl">
                 <span className="text-muted-foreground">location:</span>{" "}
                 <span className="text-primary">"Tehran, Iran 🛫 ... "</span>,
-              </p>
+              </p> */}
               <p className="text-xl">
                 <span className="text-muted-foreground">experience:</span>{" "}
                 <span className="text-primary">"7+ years"</span>
@@ -137,7 +137,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 px-10 ">
+      {/* <section className="py-20 px-10 ">
         <div className="container">
           <div className="mb-12 flex items-center justify-between">
             <h2 className="text-2xl font-bold tracking-tight">Latest Blog Posts</h2>
@@ -163,9 +163,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="border border-rounded rounded-lg bg-muted/40 py-20 px-10 mb-20">
+      <section className="mt-10 border border-rounded rounded-lg bg-muted/40 py-20 px-10 mb-20">
         <div className="container">
           <div className="mb-12 flex items-center justify-between">
             <h2 className="text-2xl font-bold tracking-tight">Featured Projects</h2>

@@ -177,7 +177,7 @@ export default function AboutPage() {
                 <span>work.taleghani@gmail.com</span>
               </Link>
               <Link
-                href="https://github.com"
+                href="https://github.com/mmte"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 <span>GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mahdi-taleghani/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
@@ -206,7 +206,7 @@ export default function AboutPage() {
                 <p className="text-sm text-muted-foreground">Completed two semesters (2016)</p>
               </div>
               <div>
-                <h3 className="font-medium">Industrial Engineering</h3>
+                <h3 className="font-medium">Industrial Engineering - withdrawn </h3>
                 <p className="text-sm text-muted-foreground">Amirkabir University of Technology</p>
                 <p className="text-sm text-muted-foreground">(Tehran Polytechnic)</p>
               </div>

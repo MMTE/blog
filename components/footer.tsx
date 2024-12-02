@@ -14,10 +14,10 @@ export default function Footer() {
           <Link href="mailto:work.taleghani@gmail.com">
             <Mail className="h-5 w-5" />
           </Link>
-          <Link href="https://github.com" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/mmte" target="_blank" rel="noreferrer">
             <Github className="h-5 w-5" />
           </Link>
-          <Link href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <Link href="https://www.linkedin.com/in/mahdi-taleghani/" target="_blank" rel="noreferrer">
             <Linkedin className="h-5 w-5" />
           </Link>
         </div>
